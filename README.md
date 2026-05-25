@@ -339,7 +339,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <p class="review-text">the cake was so light and fluffy it literally melted in my mouth, the buttery frosting matched it perfectly and the chocolate decoration was such a cute touch omg, definitely tasted like it was made by natsuki herself</p>
       <div class="review-author">
         <div class="review-av">Y</div>
-        <div><p class="review-name">Yi Ningclass="review-date">May 2026</p></div>
+        <div><p class="review-name">Yi Ning</p><p class="review-date">April 2026</p></div>
       </div>
     </div>
     <div class="review-card">
@@ -348,7 +348,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <p class="review-text">the lemon brownies are so gooddd, could use a bit more sourness and a little less zest but overall they were really amazing, if you haven't tried them yet you definitely should</p>
       <div class="review-author">
         <div class="review-av">S</div>
-        <div><p class="review-name">Shelby T.</p><p class="review-date">April 2026</p></div>
+        <div><p class="review-name">Shelby T.</p><p class="review-date">March 2026</p></div>
       </div>
     </div>
     <div class="review-card">
