@@ -274,15 +274,15 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <p class="card-badge">Cakes &amp; Cupcakes</p>
       <h3 class="card-name">Chocolate Cupcakes</h3>
       <p class="card-desc">Boxes of 2. Fluffy chocolate sponge topped with a swirl of rich cocoa buttercream. Made with premium cocoa for a deep, satisfying chocolate flavour that isn't too sweet.</p>
-      <button class="card-price-btn" onclick="scrollToOrder('Chocolate Cupcakes — RM 5')">RM 5</button>
+      <button class="card-price-btn" onclick="scrollToOrder('Chocolate Cupcakes — RM 7')">RM 7</button>
     </div>
 
     <div class="menu-card" data-cat="bread">
       <div class="card-img-wrap"><div class="card-img-emoji">🍞</div></div>
       <p class="card-badge">Breads</p>
       <h3 class="card-name">Sandwich Loaf</h3>
-      <p class="card-desc">A beautifully soft, pillowy white sandwich loaf with a tender crumb and lightly golden crust. Made with simple, clean ingredients — no preservatives, no artificial additives. Perfect for everyday enjoyment.</p>
-      <button class="card-price-btn" onclick="scrollToOrder('Sandwich Loaf — RM 15')">RM 15</button>
+      <p class="card-desc">A beautifully soft, ±300g sandwich loaf with a tender crumb and lightly golden crust. Made with simple, clean ingredients — no preservatives, no artificial additives. Perfect for everyday enjoyment.</p>
+      <button class="card-price-btn" onclick="scrollToOrder('Sandwich Loaf — RM 8')">RM 8</button>
     </div>
 
     <div class="menu-card" data-cat="cakes">
@@ -306,7 +306,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <p class="card-badge">Muffins</p>
       <h3 class="card-name">Blueberry Muffins</h3>
       <p class="card-desc">Boxes of 2. Tall, domed, and bursting with fresh blueberries in every bite. Lightly sweet with a tender crumb and a delicate golden top — the kind of muffin that makes your morning feel special.</p>
-      <button class="card-price-btn" onclick="scrollToOrder('Blueberry Muffins — RM 6')">RM 6</button>
+      <button class="card-price-btn" onclick="scrollToOrder('Blueberry Muffins — RM 7')">RM 7</button>
     </div>
 
   </div>
