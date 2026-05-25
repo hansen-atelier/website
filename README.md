@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -328,10 +327,10 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
     <div class="review-card">
       <span class="review-q">"</span>
       <p class="review-stars">★★★★★</p>
-      <p class="review-text">The chocolate chip cookies are absolutely divine — warm, gooey, and so buttery. My whole family finished the box in minutes. Already placing another order!</p>
+      <p class="review-text">The chocolate cupcake is soft and fragrant, the chocolate flavor is just right and not too sweet, very fresh, and it tastes really delicious 😋🧁 Thank you!</p>
       <div class="review-author">
         <div class="review-av">S</div>
-        <div><p class="review-name">Siti N.</p><p class="review-date">May 2026</p></div>
+        <div><p class="review-name">Sherry G.</p><p class="review-date">May 2026</p></div>
       </div>
     </div>
     <div class="review-card">
