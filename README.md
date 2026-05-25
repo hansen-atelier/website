@@ -336,10 +336,10 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
     <div class="review-card">
       <span class="review-q">"</span>
       <p class="review-stars">★★★★★</p>
-      <p class="review-text">I ordered the brownies for my office and everyone was raving about them. Rich, fudgy, and not overly sweet — absolutely perfect. Will be a regular customer!</p>
+      <p class="review-text">the actual cake was really light and fluffy which literally melted in my mouth, the frosting was so buttery and matched the cake perfectly. the chocolate decoration was such a cute touch too omg, way more than i expected and it really did taste like it was made by natsuki herself</p>
       <div class="review-author">
-        <div class="review-av">A</div>
-        <div><p class="review-name">Ahmad R.</p><p class="review-date">May 2026</p></div>
+        <div class="review-av">Y</div>
+        <div><p class="review-name">Yi Ning</p><p class="review-date">May 2026</p></div>
       </div>
     </div>
     <div class="review-card">
