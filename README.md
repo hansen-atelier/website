@@ -297,8 +297,8 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <div class="card-img-wrap"><div class="card-img-emoji">🫓</div></div>
       <p class="card-badge">Breads</p>
       <h3 class="card-name">Dark Rye Bread</h3>
-      <p class="card-desc">A hearty, wholesome loaf with a deep, earthy flavour and dense, satisfying crumb. Made with quality rye flour, it pairs beautifully with butter, cheese, or smoked salmon — rustic baking at its finest.</p>
-      <button class="card-price-btn" onclick="scrollToOrder('Dark Rye Bread — RM 15')">RM 15</button>
+      <p class="card-desc">A hearty, ±300g wholesome loaf with a deep, earthy flavour and dense, satisfying crumb. Made with quality rye flour, it pairs beautifully with butter, cheese, or smoked salmon — rustic baking at its finest.</p>
+      <button class="card-price-btn" onclick="scrollToOrder('Dark Rye Bread — RM 10')">RM 10</button>
     </div>
 
     <div class="menu-card" data-cat="muffins">
