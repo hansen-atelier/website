@@ -322,15 +322,15 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <span class="rating-text">5.0 · Loved by every customer</span>
     </div>
   </div>
-
+ 
   <div class="reviews-grid">
     <div class="review-card">
       <span class="review-q">"</span>
       <p class="review-stars">★★★★★</p>
-      <p class="review-text">The chocolate cupcakes are soft and fragrant, the chocolate flavor is just right and not too sweet, very fresh, and they are really delicious to eat 😋🧁Thank you!</p>
+      <p class="review-text">The chocolate chip cookies are absolutely divine — warm, gooey, and so buttery. My whole family finished the box in minutes. Already placing another order!</p>
       <div class="review-author">
         <div class="review-av">S</div>
-        <div><p class="review-name">Sherry Gan</p><p class="review-date">May 2026</p></div>
+        <div><p class="review-name">Siti N.</p><p class="review-date">May 2026</p></div>
       </div>
     </div>
     <div class="review-card">
@@ -358,6 +358,25 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <div class="review-author">
         <div class="review-av">M</div>
         <div><p class="review-name">Michelle T.</p><p class="review-date">April 2026</p></div>
+      </div>
+    </div>
+    <div class="review-card">
+      <span class="review-q">"</span>
+      <p class="review-stars">★★★★★</p>
+      <p class="review-text">Pre-ordering was so easy and everything arrived exactly as promised. The packaging was cute and everything tasted freshly baked. Highly recommend to anyone looking for quality home bakes!</p>
+      <div class="review-author">
+        <div class="review-av">N</div>
+        <div><p class="review-name">Nurul H.</p><p class="review-date">March 2026</p></div>
+      </div>
+    </div>
+    <div class="review-card">
+      <span class="review-q">"</span>
+      <p class="review-stars">★★★★★</p>
+      <p class="review-text">Got these cookies as a gift and honestly they were better than any bakery I've been to. Real butter makes all the difference. Thank you Hansen Atelier — you've gained a loyal customer!</p>
+      <div class="review-author">
+        <div class="review-av">J</div>
+        <div><p class="review-name">Johan K.</p><p class="review-date">March 2026</p></div>
+      </div>
     </div>
   </div>
 </section>
