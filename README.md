@@ -254,7 +254,9 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
   <div class="menu-grid" id="menuGrid">
 
     <div class="menu-card" data-cat="cookies">
-      <div class="card-img-wrap"><div class="card-img-emoji">🍪</div></div>
+      <div class="card-img-wrap"><div class="card-img-wrap">
+  <img src="https://microbakeryschool.com/hosted/images/c9/5be19f83df475cb50600fcfb350c5a/cookie3.jpg" alt="Chocolate Chip Cookies" />
+</div>
       <p class="card-badge">Cookies</p>
       <h3 class="card-name">Chocolate Chip Cookies</h3>
       <p class="card-desc">Boxes of 3. Golden-edged and chewy in the centre, each cookie is packed with pools of real milk chocolate. Baked fresh with quality butter for that warm, home-baked comfort in every bite.</p>
