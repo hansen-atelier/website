@@ -120,6 +120,7 @@ nav {
 .card-badge { font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem; font-weight: 500; }
 .card-name { font-family: 'Playfair Display', serif; font-size: 1.45rem; font-weight: 700; color: var(--green); margin-bottom: 0.7rem; line-height: 1.2; }
 .card-desc { font-size: 0.83rem; color: var(--muted); line-height: 1.75; font-weight: 300; margin-bottom: 1.4rem; flex: 1; }
+.card-note { font-size: 0.7rem; color: var(--muted); font-style: italic; margin-top: -1rem; margin-bottom: 0.8rem; }
 .card-price-btn {
   background: var(--green); color: white;
   padding: 0.65rem 1.8rem; border-radius: 2rem;
@@ -315,6 +316,15 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <h3 class="card-name">Blueberry Muffins</h3>
       <p class="card-desc">Boxes of 2. Tall, domed, and bursting with fresh blueberries in every bite. Lightly sweet with a tender crumb and a delicate golden top — the kind of muffin that makes your morning feel special.</p>
       <button class="card-price-btn" onclick="scrollToOrder('Blueberry Muffins — RM 8')">RM 8</button>
+    </div>
+
+    <div class="menu-card" data-cat="cookies">
+      <div class="card-img-wrap"><div class="card-img-emoji">🍵</div></div>
+      <p class="card-badge">Cookies</p>
+      <h3 class="card-name">Matcha White Chocolate Chip Cookies</h3>
+      <p class="card-desc">Boxes of 3. Earthy ceremonial-grade matcha swirled through a buttery cookie base, studded with pockets of sweet white chocolate. A soft, chewy centre with a lightly crisp edge.</p>
+      <p class="card-note">Photo shown is for reference only.</p>
+      <button class="card-price-btn" onclick="scrollToOrder('Matcha White Chocolate Chip Cookies — RM 9')">RM 9</button>
     </div>
 
   </div>
