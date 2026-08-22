@@ -337,7 +337,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <h3 class="card-name">Artisanal Matcha Elixir</h3>
       <p class="card-desc">Silky steamed milk poured over a rich, whisked shot of ceremonial-grade matcha. Served iced, with a smooth, vegetal sweetness and no bitterness in every sip.</p>
       <p class="card-note">Photo shown is for illustration purposes only.</p>
-      <button class="card-price-btn" onclick="scrollToOrder('Artisanal Matcha Elixir — RM 6')">RM 6</button>
+      <button class="card-price-btn" onclick="scrollToOrder('Artisanal Matcha Elixir — RM 7')">RM 7</button>
     </div>
 
   </div>
@@ -438,7 +438,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
             <option value="Blueberry Sourdough Shokupan — RM 16">Blueberry Sourdough Shokupan — RM 16</option>
             <option value="Blueberry Muffins — RM 8 (box of 2)">Blueberry Muffins — RM 8 (box of 2)</option>
             <option value="Matcha White Chocolate Chip Cookies — RM 9 (box of 3)">Matcha White Chocolate Chip Cookies — RM 9 (box of 3)</option>
-            <option value="Artisanal Matcha Elixir — RM 6">Artisanal Matcha Elixir — RM 6</option>
+            <option value="Artisanal Matcha Elixir — RM 7">Artisanal Matcha Elixir — RM 7</option>
             <option>Multiple items / Custom order…</option>
           </select>
         </div>
