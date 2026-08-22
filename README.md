@@ -250,6 +250,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
     <button class="filter-btn" data-filter="bread">Breads</button>
     <button class="filter-btn" data-filter="cakes">Cakes</button>
     <button class="filter-btn" data-filter="muffins">Muffins</button>
+    <button class="filter-btn" data-filter="drinks">Drinks</button>
   </div>
 
   <div class="menu-grid" id="menuGrid">
@@ -325,6 +326,17 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       <p class="card-desc">Boxes of 3. Earthy ceremonial-grade matcha swirled through a buttery cookie base, studded with pockets of sweet white chocolate. A soft, chewy centre with a lightly crisp edge.</p>
       <p class="card-note">Photo shown is for reference only.</p>
       <button class="card-price-btn" onclick="scrollToOrder('Matcha White Chocolate Chip Cookies — RM 9')">RM 9</button>
+    </div>
+
+    <div class="menu-card" data-cat="drinks">
+      <div class="card-img-wrap">
+        <img src="24206916746152957.jpg" alt="Matcha Latte" />
+      </div>
+      <p class="card-badge">Drinks</p>
+      <h3 class="card-name">Matcha Latte</h3>
+      <p class="card-desc">Made with artisanal matcha powder, single origin from Kagoshima, Japan. Tea cultivar: Yabukita.</p>
+      <p class="card-note">Photo shown is for illustration purposes only.</p>
+      <button class="card-price-btn" onclick="scrollToOrder('Matcha Latte — RM 6')">RM 6</button>
     </div>
 
   </div>
@@ -425,6 +437,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
             <option value="Blueberry Sourdough Shokupan — RM 16">Blueberry Sourdough Shokupan — RM 16</option>
             <option value="Blueberry Muffins — RM 8 (box of 2)">Blueberry Muffins — RM 8 (box of 2)</option>
             <option value="Matcha White Chocolate Chip Cookies — RM 9 (box of 3)">Matcha White Chocolate Chip Cookies — RM 9 (box of 3)</option>
+            <option value="Matcha Latte — RM 6">Matcha Latte — RM 6</option>
             <option>Multiple items / Custom order…</option>
           </select>
         </div>
