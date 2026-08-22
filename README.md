@@ -152,11 +152,12 @@ nav {
 .preorder-box { max-width: 680px; margin: 0 auto; background: var(--cream); border-radius: 2rem; padding: 3.5rem; border: 1px solid var(--border); }
 .preorder-box .section-head { margin-bottom: 2rem; }
 
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
-.form-group { display: flex; flex-direction: column; gap: 0.45rem; }
+.form-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; margin-bottom: 1rem; }
+.form-group { display: flex; flex-direction: column; gap: 0.45rem; width: 100%; min-width: 0; }
 .form-group.full { grid-column: 1 / -1; }
 .form-group label { font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
 .form-group input, .form-group select, .form-group textarea {
+  width: 100%; box-sizing: border-box;
   padding: 0.8rem 1rem; border: 1.5px solid var(--border);
   border-radius: 0.7rem; background: var(--warm-white);
   font-family: 'DM Sans'; font-size: 0.88rem; color: var(--text);
