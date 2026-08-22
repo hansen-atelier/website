@@ -448,6 +448,7 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
       </div>
       <button class="form-submit" onclick="submitOrder()">Submit Pre-Order →</button>
       <p class="form-note">No payment needed now — we'll contact you to confirm and arrange payment.</p>
+      <p class="form-note">Cash and Touch 'n Go E-wallet accepted only.</p>
     </div>
 
     <div class="form-success" id="successMsg">
