@@ -444,6 +444,22 @@ footer { background: var(--green-dark); color: white; padding: 3.5rem 2rem 2rem;
         </div>
         <div class="form-group"><label>Quantity</label><input type="number" id="qty" value="1" min="1" /></div>
         <div class="form-group"><label>Pickup / Delivery Date</label><input type="date" id="date" /></div>
+        <div class="form-group" id="iceGroup" style="display:none;">
+          <label>Ice Level</label>
+          <select id="ice">
+            <option value="Normal Ice">Normal Ice</option>
+            <option value="Less Ice">Less Ice</option>
+            <option value="No Ice">No Ice</option>
+          </select>
+        </div>
+        <div class="form-group" id="sweetnessGroup" style="display:none;">
+          <label>Sweetness Level</label>
+          <select id="sweetness">
+            <option value="100%">100%</option>
+            <option value="50%">50%</option>
+            <option value="0%">0%</option>
+          </select>
+        </div>
         <div class="form-group"><label>Occasion (optional)</label><input type="text" id="occasion" placeholder="e.g. Birthday, gathering…" /></div>
         <div class="form-group full"><label>Special Requests / Allergies</label><textarea id="notes" placeholder="Any dietary needs, customisations, or extra details…"></textarea></div>
       </div>
@@ -513,9 +529,18 @@ function scrollToOrder(key) {
       break;
     }
   }
+  toggleMatchaOptions();
   document.getElementById('preorder').scrollIntoView({ behavior: 'smooth' });
   setTimeout(() => document.getElementById('name').focus(), 600);
 }
+
+function toggleMatchaOptions() {
+  const item = document.getElementById('item').value;
+  const isMatcha = item.toLowerCase().includes('matcha elixir');
+  document.getElementById('iceGroup').style.display = isMatcha ? 'flex' : 'none';
+  document.getElementById('sweetnessGroup').style.display = isMatcha ? 'flex' : 'none';
+}
+document.getElementById('item').addEventListener('change', toggleMatchaOptions);
 
 const dateInput = document.getElementById('date');
 const minDate = new Date(); minDate.setDate(minDate.getDate() + 2);
@@ -529,6 +554,9 @@ async function submitOrder() {
   const qty = document.getElementById('qty').value;
   const occasion = document.getElementById('occasion').value.trim();
   const notes = document.getElementById('notes').value.trim();
+  const isMatcha = item.toLowerCase().includes('matcha elixir');
+  const ice = isMatcha ? document.getElementById('ice').value : '—';
+  const sweetness = isMatcha ? document.getElementById('sweetness').value : '—';
 
   if (!name || !contact || !item || !date) {
     const missing = [!name && 'name', !contact && 'contact', !item && 'item', !date && 'pickup date'].filter(Boolean);
@@ -550,6 +578,8 @@ async function submitOrder() {
         item,
         quantity: qty,
         pickup_date: date,
+        ice_level: ice,
+        sweetness_level: sweetness,
         occasion: occasion || '—',
         special_requests: notes || '—'
       })
